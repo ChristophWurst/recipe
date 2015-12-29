@@ -1,0 +1,33 @@
+{
+  "name": "Recipe",
+  "authors": [
+    "Christoph Wurst <christoph@winzerhof-wurst.at>"
+  ],
+  "description": "ownCloud Recipe App",
+  "main": "App.ts",
+  "moduleType": [
+    "AMD"
+  ],
+  "keywords": [
+    "owncloud",
+    "recipe"
+  ],
+  "license": "AGPLv3.0",
+  "homepage": "https://github.com/ChristophWurst/recipe",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "core/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "backbone.marionette": "~2.4.4",
+    "requirejs": "~2.1.22",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}

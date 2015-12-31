@@ -3,8 +3,6 @@
 import Backbone = require('backbone');
 import Recipe = require('model/Recipe');
 
-class RecipeCollection extends Backbone.Collection<Recipe> {
-	model = Recipe;
-}
+class RecipeCollection extends Backbone.Collection<Recipe> { }
 
 export = RecipeCollection;

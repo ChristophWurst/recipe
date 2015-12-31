@@ -1,8 +1,5 @@
 <?php
-script('recipe', 'vendor/underscore/underscore-min');
-script('recipe', 'vendor/backbone/backbone');
-script('recipe', 'vendor/backbone.marionette/lib/backbone.marionette.min');
-script('recipe', 'vendor/curl/src/curl');
+script('recipe', 'vendor/requirejs/require');
 script('recipe', 'config');
 style('recipe', 'style');
 ?>
